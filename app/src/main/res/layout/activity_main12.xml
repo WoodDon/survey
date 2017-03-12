@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dong.survey.MainActivity">
+
+    <Button
+        android:text="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Do you think you are a mad man?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp" />
+
+    <RadioButton
+        android:text="Yes I think!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/radioButton12_1"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <RadioButton
+        android:text="NONONO!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton12_2"
+        android:layout_below="@+id/radioButton12_1"
+        android:layout_alignLeft="@+id/radioButton12_1"
+        android:layout_alignStart="@+id/radioButton12_1" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton12_3"
+        android:text="I don't know the meaning of this problem."
+        android:layout_below="@+id/radioButton12_2"
+        android:layout_alignLeft="@+id/radioButton12_2"
+        android:layout_alignStart="@+id/radioButton12_2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioButton12_4"
+        android:text="Maybe."
+        android:layout_below="@+id/radioButton12_3"
+        android:layout_alignLeft="@+id/radioButton12_3"
+        android:layout_alignStart="@+id/radioButton12_3" />
+</RelativeLayout>

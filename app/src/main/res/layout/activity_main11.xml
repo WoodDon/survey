@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dong.survey.MainActivity">
+
+    <Button
+        android:text="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next11"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="What's your phone number?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView11"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:text="911"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton11_2"
+        android:layout_below="@+id/radioButton11_1"
+        android:layout_alignLeft="@+id/radioButton11_1"
+        android:layout_alignStart="@+id/radioButton11_1" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton11_3"
+        android:text="你猜？"
+        android:layout_below="@+id/radioButton11_2"
+        android:layout_alignLeft="@+id/radioButton11_2"
+        android:layout_alignStart="@+id/radioButton11_2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioButton11_4"
+        android:text="I'am so handsome!"
+        android:layout_below="@+id/radioButton11_3"
+        android:layout_alignLeft="@+id/radioButton11_3"
+        android:layout_alignStart="@+id/radioButton11_3" />
+
+    <RadioButton
+        android:text="I don't want to say!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/radioButton11_1"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/button_next11"
+        android:layout_alignEnd="@+id/button_next11" />
+</RelativeLayout>

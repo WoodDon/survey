@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dong.survey.MainActivity">
+
+    <Button
+        android:text="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_purple" />
+
+    <TextView
+        android:text="How long do you sleep a day?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:text="8 kilometres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton7_2"
+        android:layout_below="@+id/radioButton7_1"
+        android:layout_alignLeft="@+id/radioButton7_1"
+        android:layout_alignStart="@+id/radioButton7_1" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton7_3"
+        android:text="48 hours"
+        android:layout_below="@+id/radioButton7_2"
+        android:layout_alignLeft="@+id/radioButton7_2"
+        android:layout_alignStart="@+id/radioButton7_2" />
+
+    <RadioButton
+        android:text="1-23 hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioButton7_4"
+        android:layout_below="@+id/radioButton7_3"
+        android:layout_alignLeft="@+id/radioButton7_3"
+        android:layout_alignStart="@+id/radioButton7_3" />
+
+    <RadioButton
+        android:text="15 seconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/radioButton7_1"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+</RelativeLayout>

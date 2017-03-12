@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dong.survey.MainActivity">
+
+    <Button
+        android:text="Fnish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_finish"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton13_3"
+        android:layout_alignLeft="@+id/radioButton13_3"
+        android:layout_alignStart="@+id/radioButton13_3"
+        android:id="@+id/RadioButton13_4"
+        android:text="Yes I do!" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton13_3"
+        android:layout_below="@+id/radioButton13_2"
+        android:layout_alignLeft="@+id/radioButton13_2"
+        android:layout_alignStart="@+id/radioButton13_2"
+        android:text="That will be great!" />
+
+    <RadioButton
+        android:text="I'd love to!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton13_2"
+        android:layout_below="@+id/radioButton13_1"
+        android:layout_alignLeft="@+id/radioButton13_1"
+        android:layout_alignStart="@+id/radioButton13_1" />
+
+    <TextView
+        android:text="Would you like to do my survey next time?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:id="@+id/textView13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RadioButton
+        android:text="Sure!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/radioButton13_1"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
